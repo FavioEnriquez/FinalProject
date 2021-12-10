@@ -1,0 +1,48 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Start",
+					"sid": 809484143038264
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 651285474318059,
+					"parameters": {
+						"layout": "\"Control\""
+					}
+				}
+			],
+			"sid": 624657734107375
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Credits",
+					"sid": 397315323533605
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 286810180312395,
+					"parameters": {
+						"layout": "\"Credits\""
+					}
+				}
+			],
+			"sid": 295879999033917
+		}
+	],
+	"sid": 369237411201610
+}

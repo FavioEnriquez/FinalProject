@@ -21,6 +21,30 @@
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7k88wr7hwee",
@@ -30,7 +54,11 @@
 			"Plat2",
 			"Plat3",
 			"PlatTile",
-			"BG"
+			"BG",
+			"wrench",
+			"SavingStarTalon",
+			"Start",
+			"Credits"
 		],
 		"subfolders": []
 	},
@@ -42,13 +70,18 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Control",
+			"Electrical",
+			"Main Menu",
+			"Credits"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2",
+			"Event sheet 3"
 		],
 		"subfolders": []
 	},

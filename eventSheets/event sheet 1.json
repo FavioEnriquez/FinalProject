@@ -1,5 +1,142 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Enemy",
+					"sid": 558481723744933,
+					"parameters": {
+						"instance-variable": "Patrol",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Enemy",
+					"sid": 444697220944754,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "Enemy",
+					"sid": 301675971057584,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 841253173487388
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Enemy",
+					"sid": 977753195697454,
+					"parameters": {
+						"instance-variable": "Patrol",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Enemy",
+					"sid": 556608950891169,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Enemy",
+					"sid": 427934720659131,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 250709475093640
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Enemy",
+					"sid": 554418264280696,
+					"parameters": {
+						"object": "Fence"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 164138485396503,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 828370025675299,
+							"parameters": {
+								"instance-variable": "Patrol",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 915149759336905,
+							"parameters": {
+								"instance-variable": "Patrol",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 750525735690313
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 293066524448259
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 989313909758498,
+							"parameters": {
+								"instance-variable": "Patrol",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 106304006691672
+				}
+			]
+		}
+	],
 	"sid": 461549185629915
 }

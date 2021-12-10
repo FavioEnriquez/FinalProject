@@ -29,16 +29,35 @@
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7k88wr7hwee",
 	"objectTypes": {
 		"items": [
 			"Plat1",
-			"Plat2",
+			"Fence",
 			"Plat3",
 			"PlatTile",
-			"BG"
+			"BG",
+			"MovingPlatform1",
+			"Hero",
+			"Enemy"
 		],
 		"subfolders": []
 	},

@@ -58,7 +58,12 @@
 			"wrench",
 			"SavingStarTalon",
 			"Start",
-			"Credits"
+			"Credits",
+			"CreditsTileset",
+			"CreditsAlienSlime",
+			"CreditsHeartsBar",
+			"CreditsBullets",
+			"CreditsTools"
 		],
 		"subfolders": []
 	},
@@ -70,10 +75,10 @@
 	},
 	"layouts": {
 		"items": [
-			"Control",
-			"Electrical",
 			"Main Menu",
-			"Credits"
+			"Credits",
+			"Control",
+			"Electrical"
 		],
 		"subfolders": []
 	},

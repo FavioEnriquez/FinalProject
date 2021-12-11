@@ -604,6 +604,12 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
@@ -852,6 +858,12 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
@@ -897,6 +909,12 @@
 								"jump-sustain": 0,
 								"default-controls": false,
 								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -1059,6 +1077,12 @@
 								"jump-sustain": 0,
 								"default-controls": false,
 								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},

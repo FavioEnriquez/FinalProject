@@ -1,0 +1,20 @@
+{
+	"name": "Hearts",
+	"plugin-id": "TiledBg",
+	"sid": 856052876561205,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 15,
+		"height": 13,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5189827,
+		"useCollisionPoly": true
+	}
+}

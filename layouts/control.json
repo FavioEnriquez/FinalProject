@@ -221,10 +221,9 @@
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -261,20 +260,19 @@
 							"properties": {
 								"movement": "horizontal",
 								"wave": "sine",
-								"period": 4,
+								"period": 6,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
-								"magnitude": 100,
+								"magnitude": 85,
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -311,20 +309,19 @@
 							"properties": {
 								"movement": "horizontal",
 								"wave": "sine",
-								"period": 3,
+								"period": 6,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
-								"magnitude": 100,
+								"magnitude": 85,
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -371,10 +368,9 @@
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -898,11 +894,17 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
-						"x": 227.82966215870212,
-						"y": 403.19458881602685,
+						"x": 217,
+						"y": 403,
 						"width": 33.48487340278531,
 						"height": 20.278585186972215,
 						"originX": 0.5,
@@ -1089,11 +1091,17 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
-						"x": 149.7783035872666,
-						"y": 240.36330627906642,
+						"x": 139,
+						"y": 240,
 						"width": 33.48487340278531,
 						"height": 20.278585186972215,
 						"originX": 0.5,
@@ -1135,11 +1143,17 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
-						"x": 85.18407580400952,
-						"y": 113.19342033077925,
+						"x": 74,
+						"y": 113,
 						"width": 33.48487340278531,
 						"height": 20.278585186972215,
 						"originX": 0.5,
@@ -1167,8 +1181,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 548.5607644829324,
-						"y": 74.51786584096884,
+						"x": 551,
+						"y": 81,
 						"width": 8.177117841868721,
 						"height": 43.07145797561569,
 						"originX": 0.5,
@@ -1239,15 +1253,54 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
-						"x": 593.8636195971585,
-						"y": 80.89630643915069,
+						"x": 583,
+						"y": 81,
 						"width": 33.48487340278531,
 						"height": 20.278585186972215,
 						"originX": 0.5,
 						"originY": 0.21875,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Hearts",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 82,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 73.19738026622747,
+						"y": 4.48684188176928,
+						"width": 43.845146482067946,
+						"height": 12.026316236461412,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

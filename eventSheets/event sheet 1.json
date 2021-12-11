@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "HP",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 965175872653409
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -330,29 +340,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-falling",
-					"objectClass": "Hero",
-					"sid": 944676906692707,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Hero",
-					"sid": 147604800471024,
-					"parameters": {
-						"animation": "\"JumpDown\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 742785147681832
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-landed",
 					"objectClass": "Hero",
 					"sid": 507345052099225,
@@ -371,6 +358,111 @@
 				}
 			],
 			"sid": 506705255954641
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 935804687474138,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Enemy",
+					"sid": 614610895577698
+				}
+			],
+			"sid": 733031213946331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 927253429912938,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 814164404254662,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 423256718929119
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 581788327223315,
+							"parameters": {
+								"variable": "HP",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 698714867942286
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 278629723573089
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "Hearts",
+					"sid": 259388709357513,
+					"parameters": {
+						"width": "HP*16"
+					}
+				}
+			],
+			"sid": 300496960596099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 973024829784777
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Theme",
+					"sid": 210337023144921,
+					"parameters": {
+						"audio-file": "憂鬱 - Sun (mp3cut.net)",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 283525621771855
 		}
 	],
 	"sid": 461549185629915

@@ -6,12 +6,12 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "SavingStarTalon",
+					"type": "Title",
 					"properties": {
 						"text": "Saving Star Talon",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 54,
+						"font": "Perpetua Titling MT",
+						"size": 30,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -27,14 +27,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 9,
+					"uid": 35,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 116,
-						"y": 10,
-						"width": 370.92461398873013,
-						"height": 193.19842884616324,
+						"x": 114,
+						"y": 28,
+						"width": 432,
+						"height": 85,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -43,7 +43,7 @@
 							1,
 							1
 						],
-						"angle": 6.270181754659859,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -59,14 +59,14 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 10,
+					"uid": 36,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 14,
-						"y": 226,
-						"width": 264,
-						"height": 82,
+						"x": 45,
+						"y": 180,
+						"width": 220,
+						"height": 73,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -89,14 +89,14 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 11,
+					"uid": 37,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 336,
-						"y": 225,
-						"width": 265,
-						"height": 81,
+						"x": 388,
+						"y": 180,
+						"width": 220,
+						"height": 75,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -108,7 +108,7 @@
 					}
 				}
 			],
-			"sid": 363066591935557,
+			"sid": 199615214837920,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -136,7 +136,7 @@
 			"global": false
 		}
 	],
-	"sid": 536265075412101,
+	"sid": 464322248528309,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1280,
@@ -145,5 +145,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 3"
+	"eventSheet": "Event sheet 2"
 }

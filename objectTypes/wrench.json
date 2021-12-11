@@ -1,9 +1,16 @@
 {
-	"name": "wrench",
+	"name": "Wrench",
 	"plugin-id": "Sprite",
-	"sid": 800024189211252,
+	"sid": 760827034763353,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Obtained",
+			"type": "boolean",
+			"desc": "",
+			"sid": 470324895166979
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -11,35 +18,35 @@
 			{
 				"frames": [
 					{
-						"width": 168,
-						"height": 240,
-						"originX": 0.8333333333333334,
-						"originY": 0.020833333333333332,
+						"width": 18,
+						"height": 38,
+						"originX": 4.833333333333333,
+						"originY": 6.7894736842105265,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 636585,
+						"imageSpriteId": 2755530,
 						"collisionPoly": {
 							"points": [
-								0.892857006617955,
-								0.0020833253860473634,
+								0,
+								0,
+								1,
+								0,
+								0.5555555555555556,
+								1,
+								1,
 								1,
 								0,
 								1,
-								0.17083338499069206,
-								1,
-								0.16874995231628423,
-								0.8928573472159249,
-								0.16041665077209497,
-								0.8898810205005464,
-								0.16249990463256828
+								0.3888888888888889,
+								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 737573807237238,
+				"sid": 468150833596869,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

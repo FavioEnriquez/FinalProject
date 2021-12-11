@@ -17,14 +17,14 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 12,
+					"uid": 38,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 213,
-						"y": 368,
-						"width": 244,
-						"height": 79,
+						"x": 202,
+						"y": 375,
+						"width": 220,
+						"height": 73,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -36,7 +36,7 @@
 					}
 				},
 				{
-					"type": "CreditsTileset",
+					"type": "CreditsTile",
 					"properties": {
 						"text": "Tileset: gtibo, itch.io. File Name: mechanical_tileset_pack.zip. Accessed 11/04/2021.",
 						"enable-bbcode": true,
@@ -57,14 +57,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 13,
+					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 2,
 						"y": 2,
-						"width": 378,
-						"height": 58,
+						"width": 680,
+						"height": 33,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -78,7 +78,7 @@
 					}
 				},
 				{
-					"type": "CreditsAlienSlime",
+					"type": "CreditsSlime",
 					"properties": {
 						"text": "Alien Slime: rvros, itch.io. File Name: slime.zip. Accessed 11/04/2021.",
 						"enable-bbcode": true,
@@ -99,14 +99,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 14,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2,
-						"y": 59,
-						"width": 351,
-						"height": 44,
+						"x": 1,
+						"y": 45,
+						"width": 579,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -120,7 +120,7 @@
 					}
 				},
 				{
-					"type": "CreditsHeartsBar",
+					"type": "CreditsHearts",
 					"properties": {
 						"text": "Hearts Bar: VampireGirl, itch.io. File Name: Hearts.zip. Accessed 11/04/2021.",
 						"enable-bbcode": true,
@@ -141,56 +141,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 15,
+					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 2,
-						"y": 123,
-						"width": 309,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "CreditsBullets",
-					"properties": {
-						"text": "Bullets: Kay Lousberg, itch.io. File Name: guns_gameassets.zip. Accessed 11/04/2021.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 16,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1,
-						"y": 188,
-						"width": 295,
-						"height": 66,
+						"y": 92,
+						"width": 617,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -225,14 +183,56 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 17,
+					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2,
-						"y": 270,
-						"width": 283,
-						"height": 68,
+						"x": 0,
+						"y": 142,
+						"width": 616,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CreditsHero",
+					"properties": {
+						"text": "Hero: Orion, pokemon3d.net. File Name: NASA Astronaut 3.png. Accessed 12/10/2021.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1,
+						"y": 194,
+						"width": 723,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -246,7 +246,7 @@
 					}
 				}
 			],
-			"sid": 759475758326591,
+			"sid": 820414248866092,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -274,7 +274,7 @@
 			"global": false
 		}
 	],
-	"sid": 730870598157657,
+	"sid": 149029370089632,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1280,
@@ -283,5 +283,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 3"
+	"eventSheet": "Event sheet 2"
 }

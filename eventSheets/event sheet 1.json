@@ -136,6 +136,55 @@
 					"sid": 106304006691672
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Hero",
+					"sid": 789943944546654
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Hero",
+					"sid": 575970925548415
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 486774946861361
+				}
+			],
+			"sid": 970226191674029
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 279840824550465,
+					"parameters": {
+						"object": "Plat3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Hero",
+					"sid": 256521737907647
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 149945105630486
+				}
+			],
+			"sid": 496161928314208
 		}
 	],
 	"sid": 461549185629915

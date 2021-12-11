@@ -23,6 +23,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -57,7 +73,16 @@
 			"BG",
 			"MovingPlatform1",
 			"Hero",
-			"Enemy"
+			"Enemy",
+			"Title",
+			"Start",
+			"Credits",
+			"CreditsTile",
+			"CreditsSlime",
+			"CreditsHearts",
+			"CreditsTools",
+			"CreditsHero",
+			"Wrench"
 		],
 		"subfolders": []
 	},
@@ -69,13 +94,17 @@
 	},
 	"layouts": {
 		"items": [
+			"Credits",
+			"Main Menu",
+			"Control",
 			"Layout 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},

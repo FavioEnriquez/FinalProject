@@ -1,5 +1,48 @@
 {
 	"name": "Event sheet 2",
-	"events": [],
-	"sid": 959503825635047
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Credits",
+					"sid": 329998651034240
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 635385948564928,
+					"parameters": {
+						"layout": "\"Credits\""
+					}
+				}
+			],
+			"sid": 590545592693338
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Start",
+					"sid": 926569100921577
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 854287594273292,
+					"parameters": {
+						"layout": "\"Control\""
+					}
+				}
+			],
+			"sid": 986882516500911
+		}
+	],
+	"sid": 180283594202456
 }

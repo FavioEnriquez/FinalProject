@@ -1,7 +1,7 @@
 {
-	"name": "Wrench",
+	"name": "Hammer",
 	"plugin-id": "Sprite",
-	"sid": 760827034763353,
+	"sid": 745977782994614,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,27 +11,27 @@
 			{
 				"frames": [
 					{
-						"width": 18,
-						"height": 38,
-						"originX": 4.833333333333333,
-						"originY": 6.7894736842105265,
+						"width": 26,
+						"height": 31,
+						"originX": -8.5,
+						"originY": 8.064516129032258,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2755530,
+						"imageSpriteId": 5197363,
 						"collisionPoly": {
 							"points": [
 								0,
 								0,
 								1,
 								0,
-								0.5555555555555556,
+								0,
 								1,
 								1,
 								1,
 								0,
 								1,
-								0.3888888888888889,
+								0,
 								1
 							]
 						},
@@ -39,7 +39,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 468150833596869,
+				"sid": 999151491297035,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

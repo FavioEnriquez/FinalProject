@@ -1,16 +1,58 @@
 {
-	"name": "Main Menu",
+	"name": "You Win!",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Title",
+					"type": "YouWin",
 					"properties": {
-						"text": "Saving Star Talon",
+						"text": "You Win!",
 						"enable-bbcode": true,
-						"font": "Perpetua Titling MT",
+						"font": "Perpetua",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 99,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 187,
+						"y": 29,
+						"width": 296,
+						"height": 90,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WinFlavorText",
+					"properties": {
+						"text": "Congratulations! You managed to escape the Star Talon and save mankind!",
+						"enable-bbcode": true,
+						"font": "Perpetua",
 						"size": 30,
 						"line-height": 0,
 						"bold": false,
@@ -27,14 +69,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 35,
+					"uid": 100,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 114,
-						"y": 28,
-						"width": 432,
-						"height": 85,
+						"x": 106,
+						"y": 113,
+						"width": 425,
+						"height": 182,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -48,10 +90,10 @@
 					}
 				},
 				{
-					"type": "Start",
+					"type": "MainMenu",
 					"properties": {
 						"type": "button",
-						"text": "Start",
+						"text": "Main Menu",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -59,44 +101,14 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 36,
+					"uid": 101,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 10,
-						"y": 195,
-						"width": 296,
-						"height": 124,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Credits",
-					"properties": {
-						"type": "button",
-						"text": "Credits (Acquired Assets)",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 37,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 337,
-						"y": 195,
-						"width": 295,
-						"height": 126,
+						"x": 211,
+						"y": 288,
+						"width": 173,
+						"height": 78,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -108,7 +120,7 @@
 					}
 				}
 			],
-			"sid": 199615214837920,
+			"sid": 286816734051871,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -136,7 +148,7 @@
 			"global": false
 		}
 	],
-	"sid": 464322248528309,
+	"sid": 208906944456616,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1280,

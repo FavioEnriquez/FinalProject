@@ -317,52 +317,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-jumping",
-					"objectClass": "Hero",
-					"sid": 447755895819548,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Hero",
-					"sid": 399654909151571,
-					"parameters": {
-						"animation": "\"JumpUp\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 906754087056361
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-landed",
-					"objectClass": "Hero",
-					"sid": 507345052099225,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Hero",
-					"sid": 381284308508885,
-					"parameters": {
-						"animation": "\"Idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 506705255954641
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Hero",
 					"sid": 935804687474138,
@@ -371,29 +325,8 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Enemy",
-					"sid": 614610895577698
-				}
-			],
-			"sid": 733031213946331
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Hero",
-					"sid": 927253429912938,
-					"parameters": {
-						"object": "Enemy"
-					}
-				}
-			],
 			"actions": [],
-			"sid": 814164404254662,
+			"sid": 733031213946331,
 			"children": [
 				{
 					"eventType": "block",
@@ -401,21 +334,26 @@
 						{
 							"id": "trigger-once-while-true",
 							"objectClass": "System",
-							"sid": 423256718929119
+							"sid": 711733576166280
 						}
 					],
 					"actions": [
 						{
 							"id": "subtract-from-eventvar",
 							"objectClass": "System",
-							"sid": 581788327223315,
+							"sid": 132941569323090,
 							"parameters": {
 								"variable": "HP",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 526050566116815
 						}
 					],
-					"sid": 698714867942286
+					"sid": 666458158873372
 				}
 			]
 		},
@@ -463,6 +401,163 @@
 				}
 			],
 			"sid": 283525621771855
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 469509481592064,
+					"parameters": {
+						"variable": "HP",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 822036141827065,
+					"parameters": {
+						"layout": "\"Game Over\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 925683681430866,
+					"parameters": {
+						"variable": "HP",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 586850298160782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 424829147363801,
+					"parameters": {
+						"object": "Wrench"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Wrench",
+					"sid": 320718976312255
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Hero",
+					"sid": 689482025787451,
+					"parameters": {
+						"instance-variable": "ToolCollected",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 102287749593783
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 198722369314679,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Hero",
+					"sid": 640422479772014,
+					"parameters": {
+						"instance-variable": "ToolCollected"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 353908530640553,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 428990744110571
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 621360444842540,
+					"parameters": {
+						"object": "Hammer"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Hammer",
+					"sid": 448879401975753
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Hero",
+					"sid": 792060638858038,
+					"parameters": {
+						"instance-variable": "ToolCollected",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 379372660161558
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 233307665468231,
+					"parameters": {
+						"object": "Screwdriver"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Screwdriver",
+					"sid": 691395062369547
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Hero",
+					"sid": 103886393269247,
+					"parameters": {
+						"instance-variable": "ToolCollected",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 549692915932255
 		}
 	],
 	"sid": 461549185629915

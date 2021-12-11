@@ -1,16 +1,58 @@
 {
-	"name": "Main Menu",
+	"name": "Game Over",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Title",
+					"type": "GAMEOVER",
 					"properties": {
-						"text": "Saving Star Talon",
+						"text": "GAME OVER",
 						"enable-bbcode": true,
-						"font": "Perpetua Titling MT",
+						"font": "Perpetua",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 84,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 142,
+						"y": 11,
+						"width": 356,
+						"height": 170,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "LoseFlavorText",
+					"properties": {
+						"text": "You failed to save mankind!",
+						"enable-bbcode": true,
+						"font": "Perpetua",
 						"size": 30,
 						"line-height": 0,
 						"bold": false,
@@ -27,14 +69,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 35,
+					"uid": 85,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 114,
-						"y": 28,
-						"width": 432,
-						"height": 85,
+						"x": 180,
+						"y": 113,
+						"width": 289,
+						"height": 127,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -59,44 +101,14 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 36,
+					"uid": 86,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 10,
-						"y": 195,
-						"width": 296,
-						"height": 124,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Credits",
-					"properties": {
-						"type": "button",
-						"text": "Credits (Acquired Assets)",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 37,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 337,
-						"y": 195,
-						"width": 295,
-						"height": 126,
+						"x": 188,
+						"y": 247,
+						"width": 220,
+						"height": 73,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -108,7 +120,7 @@
 					}
 				}
 			],
-			"sid": 199615214837920,
+			"sid": 590902043534259,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -136,7 +148,7 @@
 			"global": false
 		}
 	],
-	"sid": 464322248528309,
+	"sid": 881447271160344,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1280,

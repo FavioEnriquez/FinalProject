@@ -1,0 +1,153 @@
+{
+	"name": "Storage",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "BG",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 32,
+						"tile-height": 32,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 96,
+					"instanceVariables": {},
+					"behaviors": {},
+					"ownData": {
+						"tilemapData": {
+							"width": 40,
+							"height": 30,
+							"max-width": 40,
+							"max-height": 30,
+							"data": "1,9,17,9,17,1,9,17,1,2x17,2x1,9,17,15x0,3,11,19,11,19,2,10,18,2,2x18,2x3,11,19,15x0,2,10,18,17,3,2x11,19,3,2x19,1,17,1,17,15x0,3,11,2x19,2x9,17,1,9,17,1,9,17,3,19,15x0,2x1,3x9,17,18,3,11,19,3,2x11,9,17,15x0,2,3,3x11,19,18,1,2x17,1,9,17,3,19,15x0,3,11,3,3x11,19,3,19,18,2,2x10,9,17,15x0,1,9,17,1,3,4x11,19,3,3x11,19,15x0,2,10,18,2,17,1,9,17,1,9,2x17,1,9,17,15x0,3,11,19,3,19,2,10,18,2,10,2x18,2,10,18,15x0,1,17,2x1,17,3,11,18,3,11,19,18,3,11,19,15x0,2,18,2,3,2x11,19,18,1,17,3,19,9,17,1,15x0,2,18,2,9,17,3,11,19,3,11,19,1,10,18,2,15x0,3,19,3,11,19,1,9,17,1,9,17,2,10,18,2,15x0,17,1,17,1,17,3,11,19,2,10,18,3,11,19,3,15x0,18,2,18,3,19,2x1,17,2,10,18,1,2x9,17,15x0,18,2,10,17,1,2x3,19,3,11,19,3,2x11,19,15x0,19,2,10,19,3,11,1,9,2x1,2x17,1,17,1,15x0,1,2,18,2x1,17,2,10,2,3,2x19,2,18,2,15x0,2x3,19,3,2,18,3,11,3,1,9,17,2,18,3,615x0"
+						},
+						"tile-width": 32,
+						"tile-height": 32,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 1,
+						"y": 2,
+						"width": 1280,
+						"height": 960,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Screwdriver",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 97,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 240,
+						"y": 239,
+						"width": 12,
+						"height": 34,
+						"originX": 11.25,
+						"originY": 5.352941176470588,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Door",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 98,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 612,
+						"y": 111,
+						"width": 28,
+						"height": 33,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 862152397358039,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 345224697025188,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1280,
+	"height": 960,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Event sheet 1"
+}

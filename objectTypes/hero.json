@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 142378276960488,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "ToolCollected",
+			"type": "boolean",
+			"desc": "",
+			"sid": 471390075173708
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",

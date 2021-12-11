@@ -117,7 +117,16 @@
 			"Wrench",
 			"Keyboard",
 			"Hearts",
-			"Theme"
+			"Theme",
+			"GAMEOVER",
+			"LoseFlavorText",
+			"barrier",
+			"Door",
+			"Hammer",
+			"Screwdriver",
+			"YouWin",
+			"WinFlavorText",
+			"MainMenu"
 		],
 		"subfolders": []
 	},
@@ -129,10 +138,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Credits",
 			"Main Menu",
+			"Credits",
 			"Control",
-			"Layout 1"
+			"Electrical",
+			"Game Over",
+			"Storage",
+			"You Win!"
 		],
 		"subfolders": []
 	},

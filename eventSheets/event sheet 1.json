@@ -443,6 +443,38 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Hero",
+					"sid": 417579476268436,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Hero",
+					"sid": 488550948705796,
+					"parameters": {
+						"instance-variable": "ToolCollected"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 832132299905790,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 564620715069378
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
 					"sid": 424829147363801,
 					"parameters": {
 						"object": "Wrench"
@@ -466,38 +498,6 @@
 				}
 			],
 			"sid": 102287749593783
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Hero",
-					"sid": 198722369314679,
-					"parameters": {
-						"object": "Door"
-					}
-				},
-				{
-					"id": "is-boolean-instance-variable-set",
-					"objectClass": "Hero",
-					"sid": 640422479772014,
-					"parameters": {
-						"instance-variable": "ToolCollected"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-nextprevious-layout",
-					"objectClass": "System",
-					"sid": 353908530640553,
-					"parameters": {
-						"which": "next"
-					}
-				}
-			],
-			"sid": 428990744110571
 		},
 		{
 			"eventType": "block",

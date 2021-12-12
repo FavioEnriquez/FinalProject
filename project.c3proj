@@ -144,9 +144,9 @@
 			"Credits",
 			"Control",
 			"Electrical",
-			"Game Over",
 			"Storage",
-			"You Win!"
+			"You Win!",
+			"Game Over"
 		],
 		"subfolders": []
 	},

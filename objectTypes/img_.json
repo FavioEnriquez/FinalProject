@@ -1,0 +1,55 @@
+{
+	"name": "IMG_",
+	"plugin-id": "Sprite",
+	"sid": 404859650143582,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 814435749160819
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 281,
+						"height": 375,
+						"originX": 0.3701067615658363,
+						"originY": 0.5253333333333333,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 242960,
+						"collisionPoly": {
+							"points": [
+								0.3487545570020575,
+								0.4640001932779945,
+								0.42704604613823494,
+								0.22666671752929682,
+								0.6761566379316342,
+								0.2853332519531251,
+								0.5978646057780522,
+								0.4933333333333339
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 547351165104736,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

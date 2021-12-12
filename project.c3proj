@@ -126,7 +126,9 @@
 			"Screwdriver",
 			"YouWin",
 			"WinFlavorText",
-			"MainMenu"
+			"MainMenu",
+			"Plat4",
+			"IMG_"
 		],
 		"subfolders": []
 	},
